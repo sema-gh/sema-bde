@@ -1,0 +1,21 @@
+@mixin nunito-sans ($name, $weight, $style) {
+  font-family: 'Nunito Sans';
+  src: url('~@/assets/fonts/nunito-sans/#{$name}.woff2') format('woff2');
+  font-weight: $weight;
+  font-style: $style;
+}
+
+@font-face { @include nunito-sans ('extra-light', 200, normal); }
+@font-face { @include nunito-sans ('extra-light-italic', 200, italic); }
+@font-face { @include nunito-sans ('light', 300, normal); }
+@font-face { @include nunito-sans ('light-italic', 300, italic); }
+@font-face { @include nunito-sans ('regular', 400, normal); }
+@font-face { @include nunito-sans ('italic', 400, italic); }
+@font-face { @include nunito-sans ('semi-bold', 600, normal); }
+@font-face { @include nunito-sans ('semi-bold-italic', 600, italic); }
+@font-face { @include nunito-sans ('bold', 700, normal); }
+@font-face { @include nunito-sans ('bold-italic', 700, italic); }
+@font-face { @include nunito-sans ('extra-bold', 800, normal); }
+@font-face { @include nunito-sans ('extra-bold-italic', 800, italic); }
+@font-face { @include nunito-sans ('black', 900, normal); }
+@font-face { @include nunito-sans ('black-italic', 900, italic); }

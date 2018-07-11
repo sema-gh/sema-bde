@@ -1,0 +1,33 @@
+.flex-fix { flex-shrink: 0; }
+
+.ma-auto {  margin: auto; }
+.ml-auto {  margin-left: auto; }
+.mr-auto {  margin-right: auto; }
+.mb-auto {  margin-bottom: auto; }
+.mt-auto {  margin-top: auto; }
+.mv-auto  {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.mh-auto  {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.element-dark-gray {
+  color: #606266
+}
+
+.b--element-gray {
+  border-color: #dcdfe6;
+}
+
+@media print {
+  .noprint {
+    display: none !important;
+  }
+
+  .print {
+    display: block !important;
+  }
+}
