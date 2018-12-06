@@ -32,7 +32,7 @@ export default {
       minPeriods: {
         hours: 'hh',
         days: 'DD',
-        weeks: 'WW',
+        weeks: '7DD',
         months: 'MM'
       },
 
